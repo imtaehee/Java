@@ -1,0 +1,27 @@
+//package jb01.test;
+
+/*
+ 이름과 전화번호를 입력받고 출력하는 예제
+ FileName : Test1.java
+ 
+ 실행 예> java Test1 홍길동 011-111-1111
+ ==>실행결과(출력결과...)
+ 나의 이름은 "홍길동"입니다
+ "홍길동"씨의 [hp]는 "011-111-1111"입니다.
+ */
+
+public class Test1 {
+	public static void main(String[] args) {
+		System.out.println("\"" + args[0]
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("이름을 입력하세요 : ");
+		String name = sc.nextLine();
+		System.out.print("전화번호를 입력하세요 : ");
+		int number = sc.nextInt();
+		System.out.print("\""+name+"\"씨의 [hp]는 "+"\""+number+"\"입니다.");		
+		
+		
+	}
+
+}
