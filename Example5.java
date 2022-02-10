@@ -25,9 +25,9 @@ public class Example5 {
 		for(int i=0; i<text.length; i++){
 			System.out.println((i+1) + "단을 출력합니다.");
 			for(int j=0; j<text.length; j++){
-				text[i][j] = ""+(i+1)*(j+1);
+				text[i][j] = (i+1)+ "*" +(j+1) + "=" + (i+1)*(j+1);
 				
-				System.out.println("text[" + i+ "]["+  j + "] : " +(i+1) + "x" +( j+1) + "=" + (i+1)*(j+1));
+				System.out.println(text[i][j]);
 			}
 		}
 	}

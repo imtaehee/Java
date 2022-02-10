@@ -49,7 +49,7 @@ public class ArrayTest01 {
 		//위의 출력을 이해했다면 아래의 주석을 풀고 출력결과 확인
 		j[5] = 1234;
 		System.out.println("j[5] ==> " + j[5]);
-		System.out.println("intArray[5] ==> " + intArray[5]);
+		System.out.println("i[5] ==> " + intArray[5]);
 	}
 
 }

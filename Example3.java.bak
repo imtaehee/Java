@@ -11,7 +11,7 @@
  입력값이 같습니다 [usage]:: 어쩌구저쩌구
  */
 
-public class JavaExample3 {
+public class Example3 {
 	public static void main(String[] args) {
 		
 		int sum = 0;

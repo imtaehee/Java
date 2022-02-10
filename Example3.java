@@ -8,10 +8,10 @@
  
  <<java Example3 10 1 인 경우도 위와 같이 출력>>
  <<java Example3 10 10 으로 입력될 경우>>
- 입력값이 같습니다 [usage]:: 어쩌구저쩌구
+ 입력값이 같습니다 [usage]:: 어쩌구저쩌구 = validation check
  */
 
-public class JavaExample3 {
+public class Example3 {
 	public static void main(String[] args) {
 		
 		int sum = 0;

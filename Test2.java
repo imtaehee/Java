@@ -18,11 +18,12 @@ public class Test2 {
 	public static void main(String[] args) {
 		int num1 = Integer.parseInt(args[0]);
 		int num2 = Integer.parseInt(args[1]);
-		if (num1>num2){
-			System.out.println("첫번째인수:" +num1 + ", 두번째인수:" +num2+ "," +num1+ "+" +num2+ "="+(num1+num2)+ "입니다.");
+		
+        if (num1>num2){
+			System.out.println("첫번째인수:" +num1 + ", 두번째인수:" +num2+ "," +num1+ "-" +num2+ "="+(num1-num2)+ "입니다.");
 		} else if(num1<num2){
-            System.out.println("첫번째인수:" +num1 + ", 두번째인수:" +num2+ "," +num1+ "-" +num2+ "="+(num1-num2)+ "입니다.");
-	}
+            System.out.println("첫번째인수:" +num1 + ", 두번째인수:" +num2+ "," +num1+ "+" +num2+ "="+(num2+num1)+ "입니다.");
+	 }
 }
 
 }
