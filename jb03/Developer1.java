@@ -32,8 +32,8 @@ public class Developer1{
 
 	//========추가강의수에 따라 income 증가행위
 	public void instruct(int lectureCount){
-		System.out.println(lectureCount+ "==> 강의를 통한 수입증가");
-		avgIncome += lectureCount
+		System.out.println(lectureCount+ "개 강의를 통한 수입증가");
+		avgIncome += lectureCount;
 	}
 
 }

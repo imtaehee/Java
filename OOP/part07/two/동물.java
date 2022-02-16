@@ -1,4 +1,4 @@
-package jb02.part07.two;
+//package jb02.part07.two;
 
 /*  
  	FileName : µ¿¹°.java

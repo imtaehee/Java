@@ -15,6 +15,27 @@ java Bank02 홍길동 하나은행 2 100
 */
 
 public class Bank02{
-	public {
+	
+	int balance;
+	int money;
+	int command;
+	String userName;
+	String bankName;
+
+	public Bank01(){
 	}
+
+	public Bank01(String s1, String s2){
+		userName = s1;
+		bankName = s2;
+	}
+
+	public Bank01(String s1, String s2, String s3, String s4){
+		userName = s1;
+		bankName = s2;
+		command = Integer.parseInt(s3);
+		money = Integer.parseInt(s4);
+	}
+
+
 }

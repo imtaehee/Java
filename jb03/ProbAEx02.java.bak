@@ -19,6 +19,7 @@ public class ProbAEx02{
 					break;
 				}
 		    }
+		
 		if (prime){
 			 System.out.println(k +"\n");
 		}

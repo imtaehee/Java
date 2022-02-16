@@ -1,4 +1,4 @@
-//package jb02.part06;
+package jb02.part06;
 
 /*
 	FileName : 검은색보드마카.java

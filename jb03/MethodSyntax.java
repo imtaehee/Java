@@ -26,7 +26,7 @@ public class MethodSyntax{
 	}
 
 	//두개의 정수를 받아 합을 return하는 행위
-	public int sun(int i, int j){
+	public int sum(int i, int j){
 		System.out.println("<<" +i+ ">> 와 <<" +j+ ">>값을 받아 함 return");
 		return(i+j);
 	}

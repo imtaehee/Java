@@ -36,6 +36,6 @@ public class User02{
 	*/
 
 	    System.out.println("name:" + user.getNmae());
-		System.out.println("javaLevel:" + user.getJavaLEVEL());
+		System.out.println("javaLevel:" + user.getJavaLevel());
 	}
 }

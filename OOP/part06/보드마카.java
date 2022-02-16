@@ -1,4 +1,4 @@
-//package jb02.part06;
+package jb02.part06;
 
 /*
 	FileName : 보드마카.java
