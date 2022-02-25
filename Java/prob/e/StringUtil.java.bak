@@ -1,0 +1,27 @@
+//package e.api.ex05
+
+//매개변수로 받은 문자열 배열에서 'a'가 가장 많은 문자열의 a를 대문자 A로 변경
+
+public class StringUtil{
+
+	private static String replaceString(String[] arr){
+
+		int count=0;
+
+		for(int k=1; k<arr.length; k++){
+			countChar(arr[k],"a")
+				
+			
+
+
+		return result;
+
+	}
+	public static void main(String[] args) {
+
+		String[] arr={"java program", "array", "java program area", "append"};
+		String result=StringUtil.replaceString(arr);
+		System.out.println("변경된 문자열 " +result);
+		
+	}
+}
